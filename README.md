@@ -1,16 +1,5 @@
 # smart_lamp
 
-A new Flutter project.
+A flutter project integrated with IoT.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project is used to simulate lamp trigger, using MQTT connection, subscribing to `room/app` topic. The project was to use ESP8266 to detect luminosity, send the result throught MQTT topic, connect to node-RED and then send the result to app.
